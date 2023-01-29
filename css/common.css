@@ -1,0 +1,120 @@
+/* 版心宽度 */
+.w{
+    width: 1330px;
+    margin :0 auto;
+}
+/* 快捷导航模块 */
+.shortcut{
+    height: 30px;
+    background-color: #f1f1f1;
+    line-height: 30px;
+    padding-left: 360px;
+}
+.shortcut a{
+    color: #c81623;  
+}
+.shortcut ul{
+    height: 15px;
+    float:right;
+    margin-right: 360px;
+    
+}
+.shortcut li{
+    height: 13px;
+    margin-top: 9px;
+    margin-right: 15px;
+    float: left;
+    border-right: #666666 solid 1px;
+    line-height: 15px;
+}
+#f1{
+    border-right: none;
+}
+header{
+    position: relative;
+    height: 60px;
+    width: 100%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+header button{
+    position: absolute;
+    right: 65px;
+    height: 35px;
+    width: 140px;
+    background-color: #f7f7f7;
+    border: #dfdfdf solid 1.5px;
+}
+header button .xiaoxi{
+    position: absolute;
+    top: -7px;
+    right: 19px;
+}
+header button .gouwu{
+    position:absolute;
+    left: 18px;
+    bottom: 10px;
+}
+header button .rightdirect{
+    position: absolute;
+    right:15px;
+    top: 11px;
+}
+header button p{
+    position:absolute;
+    font-size: 11px;
+    font-weight: 200;
+    left: 43px;
+    bottom: 8px;
+}
+.search input  {
+    padding-left: 1em;
+    font-size: 14px;
+    color: #8c8c8c;
+    outline: none;
+}
+.search{
+    position: absolute;
+    top: 0px;
+    left: 385px;
+    height: 35px;
+    width: 538px;
+    border:#b1191a solid 2px ;
+}
+.search input{
+    height: 31px;
+    width: 454px;
+    border: none;
+
+}
+.search>button{
+    position: absolute;
+    border: none;
+    right: 0px;
+    top:0px;
+    width: 80px;
+    height: 32px;
+    background-image: url(../imgs/searchbutton.png);
+}
+.headbottom{
+    position: absolute;
+    bottom: 5px;
+    left: 385px;
+    width: 538px;
+    height: 15px;
+}
+.headbottom li{
+    float: left;
+    margin-left: 25px;
+    height: 100%;
+    width: auto;
+    line-height: 15px;
+}
+.headbottom .shoufa{
+    margin-left: 12px;
+}
+.typebanner{
+    height: 45px;
+    background-color: #00ffcc;
+    border-bottom: #b1191a solid 2px;
+}
