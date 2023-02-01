@@ -1,0 +1,114 @@
+.main{
+    width: 100%;
+    height: 477px;
+}
+.foucus{
+    float: left;
+    margin-left: 220px;
+    margin-right: 10px;
+    height: 467px;
+    width: 825px;
+    background-color: pink;
+}
+.newsflash{
+    position: relative;
+    float: left;
+    height: 467px;
+    width: 275px;
+    border: #e4e4e4 solid 1px;
+}
+.foucus img{
+    height: 100%;
+    width: 100%;
+}
+.newsflash .firstword{
+    height: 31px;
+    width: 100%;
+    border-bottom: 1px solid #e8e8e7;
+}
+.newsflash .firstword p{
+    float: left;
+}
+.newsflash .firstword .more{
+    display: inline-block;
+    margin-top: 8px;
+    font-size: 12px;
+    font-weight: 200;
+}
+.newsflash .firstword .pinyoukuaibao{
+    padding-left: 15px;
+    padding-top: 5px;
+    margin-right: 135px;
+    font-size: 14px;
+}
+.newsflash .notification{
+    height: 139px;
+    width: 100%;
+    border-bottom: #e4e4e4 solid 1px;
+}
+.newsflash .notification p{
+    padding-left: 15px;
+    margin-top:8px;
+    font-size: 12px;
+}
+.newsflash .notification .firstnotice{
+    margin-top: 10px;
+}
+.newsflash .ability{
+    height: 20px;
+    width: 100%;
+    margin-bottom: 8px;
+    border-bottom: #e4e4e4 solid 1px;
+}
+.newsflash .adver{
+    height: 74px;
+    width: 100%;
+    border-top: #e4e4e4 solid 1px;
+}
+.ability .abilitybox{
+    float: left;
+    background-color: pink;
+    border-bottom: #e4e4e4 solid 1px;
+    border-right: #e4e4e4 solid 1px;
+    height: 69.5px;
+    width: 69px;
+}
+.abilitybox a{
+    display: block;
+    height: 100%;
+}
+.abilitybox1 a{
+    display: block;
+    height: 100%;
+}
+.ability a img{
+    width: 100%;
+    height: 100%;
+}
+.ability .abilitybox1{
+    float: left;
+    background-color: pink;
+    border-bottom: #e4e4e4 solid 1px;
+    height: 69.5px;
+    width: 66px;
+}
+.newsflash .adver a{
+    display: block;
+    height: 77px;
+    width: 274px;
+}
+.newsflash .adver img{
+    height: 77px;
+    width: 274px;
+}
+.close{
+    position: absolute;
+    top:394px;
+    right: 0;
+    font-size: 12px;
+    font-weight: 200;
+    color: rgb(134, 134, 134);
+    background-color: white;
+    border: #e4e4e4 solid 1px;
+    outline: none;
+}
